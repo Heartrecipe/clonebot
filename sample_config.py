@@ -24,7 +24,7 @@ class Config(object):
     AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "5338017254").split())
 
     # Generate a user session string
-    TG_USER_SESSION = os.environ.get("TG_USER_SESSION", "")
+    TG_USER_SESSION = os.environ.get("TG_USER_SESSION", "AQEmikYAPkoRx792THwtmMbAJMmSLXgiyue5lKNu9C2cAYcN1lvykWPtJb6JoOAr0NhEhaplCs6fEXfNX1BgsWMdjqmWVSSSjWJMU_gsvq3I66cm3w1Rg8NM371Cvqv5I9kxqm_OIQF7gduBqlPgNwQoiWb05WlTXveH3pNVRoNK8RXKbsFXJ_064BIWL8aCIIJjASTskIs_9oZLmb13M9hFN7Mro6FaTwqyTnldbgAQ-Xo0CexFug8LwKhc1k5MZeZdBi1Of4UZV-g_J_sBmJu5wgSaSDwRIaL2YtRA4DktU3VoaJU7oniIc1NeiG-7hVPGaNbUuhmeIm_a83mY5YpsmnD4SgAAAAE-K63mAA")
 
     # Database URI
     DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://frdbot:frdbot@cluster0.t9ma9wq.mongodb.net/?retryWrites=true&w=majority")
